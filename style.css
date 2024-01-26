@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+     background: skyblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+  }
+  
+  h4{
+    margin: 20px 0 20px 0;
+    color: skyblue;
+  }
+  img{
+    width:100%;
+  }
+  .container{
+    padding: 40px;
+    max-width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    background: #ffff;
+    border-radius:10px;
+    box-shadow: 0.2px 1px 5px black;
+    
+  }
+  
+  select, option{
+  inline-size:100%;
+      width:100%;
+      border:none;
+     outline: 2px solid skyblue;
+    font-size:1.2rem;
+    font-family:inherit;
+    padding-bottom:5px;
+  }
+  
+  
+  .val{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+   textarea{
+    width:100%;
+     padding: 10px;
+     resize: none;
+  border:none;
+     outline: 2px solid skyblue;
+     margin:0 0 10px 0;
+     font-size:1.2rem;
+       font-family:inherit;
+  }
+  
+  select{
+    padding: 10px;
+  
+  }
+  
+  #btn{
+    background:skyblue;
+    padding:15px 10px;
+    color:black;
+    border:none;
+    border-radius:5px;
+  }
+  
+  #btn:hover{
+    background:#136281;
+    color:#fff;
+  }
